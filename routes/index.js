@@ -14,7 +14,7 @@ module.exports = function(app){
     })
     //注册页面
     app.get("/reg",function(req,res){
-        res.render("index",{title:"注册"});
+        res.render("reg",{title:"注册"});
     })
     //注册行为
     app.post("/reg",function(req,res){
